@@ -1,0 +1,33 @@
+NIT Agartala-nit_agartala-http://www.nita.ac.in/
+MNNIT Allahabad-nit_allahabad-http://www.mnnit.ac.in/
+MANIT Bhopal-nit_bhopal-http://www.manit.ac.in/
+NIT Jalandhar-nit_jalandhar-http://www.nitj.ac.in/
+NIT Jamshedpur-nit_jamshedpur-http://www.nitjsr.ac.in/
+"NIT Kurukshetra","nit_kurukshetra","http://www.nitkkr.ac.in/"
+"NIT Silchar","nit_silchar","http://www.nits.ac.in/"
+"NIT Durgapur","nit_durgapur","http://www.nitdgp.ac.in/"
+"NIT Calicut","nit_calicut","http://www.nitc.ac.in/"			1111
+"NIT Durgapur","nit_durgapur","http://www.nitdgp.ac.in/"			1111
+"NIT Hamirpur","nit_hamirpur","http://nith.ac.in/newweb/"			1111
+"MNIT Jaipur","nit_jaipur","http://www.mnit.ac.in/"		1111
+"VNIT Nagpur","nit_nagpur","http://www.vnit.ac.in/"		111
+"NIT Patna","nit_patna","http://www.nitp.ac.in/php/home.php"     1111
+"NIT Raipur","nit_raipur","http://www.nitrr.ac.in/"
+"NIT Rourkela","nit_rourkela","http://nitrkl.ac.in/websiteNew/"            1111
+"NIT Srinagar","nit_srinagar","http://www.nitsri.net/"
+"SVNIT Surat","nit_surat","http://www.svnit.ac.in/"
+"NIT Surathkal","nit_suratkal","http://www.nitk.ac.in/"
+"NIT Trichy","nit_trichy","https://www.nitt.edu/"
+"NIT Warangal","nit_warangal","http://www.nitw.ac.in/main/"
+"NIT Arunachal Pradesh","nit_arunachal","http://www.nitap.in/"
+"NIT Sikkim","nit_sikkim","http://www.nitsikkim.ac.in/"
+"NIT Goa","nit_goa","http://www.nitgoa.ac.in/"
+"NIT Meghalaya","nit_meghalaya","http://nitmeghalaya.in/nitm_web/index.php"
+"NIT Nagaland","nit_nagaland","http://nitnagaland.ac.in/homenew/"
+"NIT Manipur","nit_manipur","http://www.nitmanipur.ac.in/"         11111
+"NIT Mizoram","nit_mizoram","http://www.nitmz.ac.in/"
+"NIT Uttarakhand","nit_uttarakhand","http://nituk.ac.in/"
+"NIT Delhi","nit_delhi","http://nitdelhi.ac.in/"
+"NIT Pondicherry","nit_puducheerry","http://www.nitpy.ac.in/"
+
+

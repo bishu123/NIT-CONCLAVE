@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/institute1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="31dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/institute1_text"
+        android:layout_alignStart="@+id/institute1_text"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <TextView
+        android:id="@+id/institute1_text"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/institute1"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:fontFamily="cursive"
+        android:text=" Prof. A.K. Barbhuiya"
+        android:textAlignment="center"
+        android:textColor="#051472" />
+
+    <TextView
+        android:id="@+id/institute1_text2"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:fontFamily="cursive"
+        android:text="Chief Advisor"
+        android:textAlignment="center"
+        android:textColor="#051472"
+        android:textSize="18dp"
+
+        android:layout_below="@+id/institute1_text"
+        android:layout_alignLeft="@+id/institute1_text"
+        android:layout_alignStart="@+id/institute1_text" />
+
+    <ImageView
+        android:id="@+id/institute2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/institute1"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+         />
+
+    <TextView
+        android:id="@+id/institute2_text1"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:fontFamily="cursive"
+        android:text="Dr. N.B.D.Choudhury"
+        android:textAlignment="center"
+        android:textColor="#051472"
+
+        android:layout_below="@+id/institute2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/institute2_text2"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:text="Convener"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:textColor="#051472"
+        android:layout_below="@+id/institute2_text1"
+        android:layout_alignLeft="@+id/institute2"
+        android:layout_alignStart="@+id/institute2" />
+
+    <ImageView
+        android:id="@+id/institute3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignLeft="@+id/institute1"
+        android:layout_alignStart="@+id/institute1"
+        android:layout_below="@+id/institute1_text2"
+        android:layout_marginTop="34dp"
+          />
+
+    <TextView
+        android:id="@+id/institute3_text1"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text="Dr. Wasim Arif"
+        android:textColor="#051472"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:layout_below="@+id/institute3"
+        android:layout_alignLeft="@+id/institute1_text2"
+        android:layout_alignStart="@+id/institute1_text2" />
+
+    <TextView
+        android:id="@+id/institute3_text2"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:fontFamily="cursive"
+        android:text="Coordinator"
+        android:textAlignment="center"
+        android:textColor="#051472"
+        android:textSize="20dp"
+        android:layout_below="@+id/institute3_text1"
+        android:layout_alignLeft="@+id/institute3_text1"
+        android:layout_alignStart="@+id/institute3_text1" />
+
+    <ImageView
+        android:id="@+id/institute4"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/institute3_text1"
+        android:layout_alignLeft="@+id/institute2_text2"
+        android:layout_alignStart="@+id/institute2_text2"
+          />
+
+    <TextView
+        android:id="@+id/institute4_text1"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/institute2_text1"
+        android:layout_alignRight="@+id/institute2_text1"
+        android:layout_below="@+id/institute4"
+        android:fontFamily="cursive"
+        android:text="Dr. Dulal Chandra Das"
+        android:textAlignment="center"
+        android:textColor="#051472"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/institute4_text2"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="Coordinator"
+        android:textColor="#051472"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:layout_below="@+id/institute4_text1"
+        android:layout_alignRight="@+id/institute4_text1"
+        android:layout_alignEnd="@+id/institute4_text1" />
+
+    <ImageView
+        android:id="@+id/institute5"
+        android:layout_width=" 90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/institute3_text2"
+        android:layout_alignLeft="@+id/institute3"
+        android:layout_alignStart="@+id/institute3" />
+
+    <TextView
+        android:id="@+id/institute5_text1"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:fontFamily="cursive"
+        android:text="Dr. Ganti Ramesh"
+        android:textAlignment="center"
+        android:textColor="#051472"
+        android:textSize="20dp"
+        android:layout_below="@+id/institute5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/institute5_text2"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:textColor="#051472"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:layout_alignLeft="@+id/institute5"
+        android:layout_alignStart="@+id/institute5"
+        android:layout_below="@+id/institute5_text1"
+        android:text="Coordinator" />
+
+    <ImageView
+        android:id="@+id/institute6"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+
+        android:layout_alignLeft="@+id/institute4"
+        android:layout_alignStart="@+id/institute4"
+        android:layout_alignTop="@+id/institute5"
+        />
+
+    <TextView
+        android:id="@+id/institute6_text1"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="Dr. N.B.Singh"
+        android:textColor="#051472"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:layout_below="@+id/institute6"
+        android:layout_alignRight="@+id/institute4_text1"
+        android:layout_alignEnd="@+id/institute4_text1" />
+
+    <TextView
+        android:id="@+id/institute6_text2"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:textColor="#051472"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:layout_alignLeft="@+id/institute6"
+        android:layout_alignStart="@+id/institute6"
+        android:layout_below="@+id/institute6_text1"
+        android:text="Coordinator" />
+
+</RelativeLayout>

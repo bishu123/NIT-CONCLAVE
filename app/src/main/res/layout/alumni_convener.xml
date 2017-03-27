@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/alumni1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="52dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/alumni1_text1"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/alumni1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:text="Mrinal Shrivastav"
+        android:textAlignment="center"
+        android:textColor="#051472"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/alumni1_text2"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:text="NIT Silchar"
+        android:fontFamily="cursive"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="#051472"
+        android:layout_below="@+id/alumni1_text1"
+        android:layout_alignLeft="@+id/alumni1"
+        android:layout_alignStart="@+id/alumni1" />
+
+    <ImageView
+        android:id="@+id/alumni2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_toLeftOf="@+id/alumni1_text2"
+        android:layout_toStartOf="@+id/alumni1_text2"
+          />
+
+    <TextView
+        android:id="@+id/alumni2_text1"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:fontFamily="cursive"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#051472"
+        android:text="Almas Praveen"
+        android:layout_below="@+id/alumni2"
+        android:layout_toLeftOf="@+id/alumni1_text2"
+        android:layout_toStartOf="@+id/alumni1_text2" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:fontFamily="cursive"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="#051472"
+        android:text="NITK Surathkal"
+        android:layout_below="@+id/alumni2_text1"
+        android:layout_alignRight="@+id/alumni2"
+        android:layout_alignEnd="@+id/alumni2" />
+
+    <ImageView
+        android:id="@+id/alumni3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignTop="@+id/alumni2"
+        android:layout_toEndOf="@+id/alumni1"
+        android:layout_toRightOf="@+id/alumni1"
+         />
+
+    <TextView
+        android:id="@+id/alumni3_text"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="Darshil Shastri"
+        android:fontFamily="cursive"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#051472"
+        android:layout_below="@+id/alumni3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_alignBottom="@+id/alumni2_text1" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/alumni3"
+        android:layout_alignStart="@+id/alumni3"
+        android:layout_below="@+id/alumni3_text"
+        android:fontFamily="cursive"
+        android:text="SVNIT Surat"
+        android:textAlignment="center"
+        android:textColor="#051472"
+        android:textSize="15dp" />
+</RelativeLayout>

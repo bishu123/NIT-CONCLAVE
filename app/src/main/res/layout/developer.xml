@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#78a3f4">
+
+    <ImageView
+        android:id="@+id/profile_jasbir"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="27dp"
+        app:srcCompat="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="29dp"
+        android:layout_marginEnd="29dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+
+        android:background="#FFFFFF"
+        android:layout_above="@+id/sri_img"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="21dp" />
+
+    <ImageView
+        android:id="@+id/profile_bishu"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/com_facebook_button_like_background"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/profile_jasbir"
+        android:layout_alignStart="@+id/profile_jasbir" />
+
+    <TextView
+        android:id="@+id/jasbir_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:text="Jasbir Singh Birdi"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_above="@+id/linkedin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/jasbir_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class OF 2018"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:layout_above="@+id/jasbir_nit"
+        android:layout_alignLeft="@+id/jasbir_name"
+        android:layout_alignStart="@+id/jasbir_name" />
+
+    <TextView
+        android:id="@+id/jasbir_nit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIT SILCHAR"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"
+        android:layout_alignBottom="@+id/profile_jasbir"
+        android:layout_alignLeft="@+id/jasbir_class"
+        android:layout_alignStart="@+id/jasbir_class" />
+
+    <Button
+        android:id="@+id/fb"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text=" "
+        android:layout_alignBottom="@+id/jasbir_nit"
+        android:layout_toLeftOf="@+id/linkedin"
+        android:layout_toStartOf="@+id/linkedin" />
+
+    <Button
+        android:id="@+id/linkedin"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text=" "
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_alignBaseline="@+id/fb"
+        android:layout_alignBottom="@+id/fb"
+        android:layout_toLeftOf="@+id/profile_jasbir"
+        android:layout_toStartOf="@+id/profile_jasbir" />
+
+    <TextView
+        android:id="@+id/bishu_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Bishwajeet Kumar"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/profile_bishu"
+        android:layout_alignLeft="@+id/bishu_nit"
+        android:layout_alignStart="@+id/bishu_nit" />
+
+    <TextView
+        android:id="@+id/bishu_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class Of 2018"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:layout_alignRight="@+id/jasbir_class"
+        android:layout_alignEnd="@+id/jasbir_class"
+        android:layout_alignTop="@+id/bishu_linked" />
+
+    <TextView
+        android:id="@+id/bishu_nit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIT SILCHAR"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/bishu_class"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6" />
+
+    <Button
+        android:id="@+id/bishu_fb"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text=" "
+        android:layout_alignBaseline="@+id/bishu_linked"
+        android:layout_alignBottom="@+id/bishu_linked"
+        android:layout_toLeftOf="@+id/linkedin"
+        android:layout_toStartOf="@+id/linkedin" />
+
+    <Button
+        android:id="@+id/bishu_linked"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text=" "
+        android:layout_below="@+id/bishu_name"
+        android:layout_toRightOf="@+id/bishu_fb"
+        android:layout_toEndOf="@+id/bishu_fb" />
+
+    <ImageView
+        android:id="@+id/sri_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+
+        android:layout_marginBottom="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/profile_bishu"
+        android:layout_alignStart="@+id/profile_bishu" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Srikar Krishna"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/sri_link"
+        android:layout_alignLeft="@+id/jasbir_nit"
+        android:layout_alignStart="@+id/jasbir_nit" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:text="Class of 2018"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:layout_alignTop="@+id/sri_fb" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIT SILCHAR"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/sri_img"
+        android:layout_alignRight="@+id/bishu_class"
+        android:layout_alignEnd="@+id/bishu_class" />
+
+    <Button
+        android:id="@+id/sri_link"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text=" "
+        android:layout_alignBottom="@+id/sri_img"
+        android:layout_alignLeft="@+id/bishu_linked"
+        android:layout_alignStart="@+id/bishu_linked" />
+
+    <Button
+        android:id="@+id/sri_fb"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text=" "
+        android:layout_alignBaseline="@+id/sri_link"
+        android:layout_alignBottom="@+id/sri_link"
+        android:layout_toLeftOf="@+id/sri_link"
+        android:layout_toStartOf="@+id/sri_link" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+         android:textColor="#ffffff"
+        android:background="#ffff"
+        android:layout_below="@+id/linkedin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp" />
+
+</RelativeLayout>

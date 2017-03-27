@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bishu.jasbir_singh.nits_conclave">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gymkhana1"
+        android:label="GYMKHANA"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:debuggable="false"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.bishu.jasbir_singh.nits_conclave.Conclave_Login"
+            android:screenOrientation="locked"></activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/fb_id" />
+
+        <activity
+            android:name="com.bishu.jasbir_singh.nits_conclave.Conclave_SignUp"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.bishu.jasbir_singh.nits_conclave.Conclave_Profile"
+            android:label="@string/title_activity_conclave__profile"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.bishu.jasbir_singh.nits_conclave.POP_UP"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name="com.facebook.katana.IntentUriHandler"
+            android:screenOrientation="locked">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="facebook" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="fb" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bishu.jasbir_singh.nits_conclave.Launch"
+            android:screenOrientation="locked">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

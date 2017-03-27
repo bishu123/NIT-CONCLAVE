@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <RelativeLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/convenor1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                 />
+
+            <TextView
+                android:id="@+id/convenor_head_text"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/convenor1"
+                android:layout_alignStart="@+id/convenor1"
+                android:layout_below="@+id/convenor1"
+                android:fontFamily="cursive"
+                android:text="Pranshu Gautam"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/conenor2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+
+                android:layout_below="@+id/convenor_head_text"
+                android:layout_toLeftOf="@+id/convenor_head_text"
+                android:layout_toStartOf="@+id/convenor_head_text" />
+
+            <ImageView
+                android:id="@+id/convenor3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_below="@+id/convenor_head_text"
+                android:layout_toEndOf="@+id/convenor_head_text"
+                android:layout_toRightOf="@+id/convenor_head_text"
+                  />
+
+            <TextView
+                android:id="@+id/convenor2_text"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/conenor2"
+                android:layout_alignStart="@+id/conenor2"
+                android:layout_below="@+id/conenor2"
+                android:fontFamily="cursive"
+                android:text="Ipshita Deb"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/convenor3_text"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/convenor3"
+                android:layout_alignStart="@+id/convenor3"
+                android:layout_below="@+id/convenor3"
+                android:fontFamily="cursive"
+                android:text="Vikas Kumar"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/convenor4"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignLeft="@+id/convenor2_text"
+                android:layout_alignStart="@+id/convenor2_text"
+                android:layout_below="@+id/convenor2_text"
+                android:layout_marginTop="23dp"
+                  />
+
+            <ImageView
+                android:id="@+id/convenor5"
+                android:layout_width=" 90dp"
+                android:layout_height=" 90dp"
+                android:layout_alignLeft="@+id/convenor3_text"
+                android:layout_alignStart="@+id/convenor3_text"
+                android:layout_alignTop="@+id/convenor4"
+                  />
+
+            <TextView
+                android:id="@+id/convernoor4_text"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/convenor4"
+                android:layout_alignStart="@+id/convenor4"
+                android:layout_below="@+id/convenor4"
+                android:fontFamily="cursive"
+                android:text="Biswajyoti Das"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/convenor5_text"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/convenor5"
+                android:layout_alignStart="@+id/convenor5"
+                android:layout_below="@+id/convenor5"
+                android:fontFamily="cursive"
+                android:text=" Sravani Atmakuri"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+
+
+        </RelativeLayout>
+</ScrollView>

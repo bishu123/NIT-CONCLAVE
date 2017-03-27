@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/nodal1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/nodal1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:id="@+id/nodal1_text"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:fontFamily="cursive"
+        android:text="Diixita Gulgulia"
+        android:textAlignment="center"
+        android:textColor="#051472"
+        android:textSize="15dp"
+        android:layout_below="@+id/nodal1"
+        android:layout_alignLeft="@+id/nodal1"
+        android:layout_alignStart="@+id/nodal1"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/nodal2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/nodal2"
+        android:layout_below="@+id/nodal1_text"
+        android:layout_toLeftOf="@+id/nodal1_text"
+        android:layout_toStartOf="@+id/nodal1_text" />
+
+    <ImageView
+        android:id="@+id/nodal3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignTop="@+id/nodal2"
+        android:layout_toEndOf="@+id/nodal1_text"
+        android:layout_toRightOf="@+id/nodal1_text"
+        android:background="@drawable/nodal3"
+         />
+
+    <TextView
+        android:id="@+id/nodal2_text"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/nodal2"
+        android:layout_alignStart="@+id/nodal2"
+        android:layout_below="@+id/nodal2"
+        android:layout_marginTop="17dp"
+        android:fontFamily="cursive"
+        android:textColor="#051472"
+        android:text="Aishwarya Bammidi"
+        android:textAlignment="center"
+
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/nodal3_text"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/nodal3"
+        android:layout_alignStart="@+id/nodal3"
+        android:layout_alignTop="@+id/nodal2_text"
+        android:fontFamily="cursive"
+        android:text="Trisha Bhattacharya"
+        android:textAlignment="center"
+        android:textColor="#051472"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:id="@+id/nodal4"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="14dp"
+
+        android:layout_below="@+id/nodal2_text"
+        android:layout_alignLeft="@+id/nodal2_text"
+        android:layout_alignStart="@+id/nodal2_text"
+
+       />
+
+    <TextView
+        android:id="@+id/nodal4_text"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/nodal4"
+        android:layout_alignStart="@+id/nodal4"
+        android:layout_below="@+id/nodal4"
+        android:layout_marginTop="23dp"
+        android:fontFamily="cursive"
+        android:text="Bhaskar Ganguli"
+        android:textAlignment="center"
+        android:textColor="#051472"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:id="@+id/nodal5"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+
+        android:layout_alignTop="@+id/nodal4"
+        android:layout_alignLeft="@+id/nodal3_text"
+        android:layout_alignStart="@+id/nodal3_text" />
+
+    <TextView
+        android:id="@+id/nodal5_text"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/nodal5"
+        android:layout_alignStart="@+id/nodal5"
+        android:layout_alignTop="@+id/nodal4_text"
+        android:fontFamily="cursive"
+        android:text="Praneet Kumar"
+        android:textAlignment="center"
+        android:textColor="#051472"
+        android:textSize="12dp" />
+
+</RelativeLayout>

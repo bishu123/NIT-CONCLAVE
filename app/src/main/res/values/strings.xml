@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Nits_Conclave</string>
+    <string name="fb_id">1759026494411262</string>
+    <string name="title_activity_conclave__profile">Conclave_Profile</string>
+    <string name="Gender_title">Select Gender</string>
+    <string name="college_title">Select College</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="gender">
+        <item>Gender:</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="conclave_content">
+        For good ideas and true innovation, we need human interaction, conflict, arguments and debate”.
+        All of us, at some point or another must have thought some new, innovative ideas to solve existing
+        problems or improvise the techniques to handle it. But how many of us can claim to have developed the thought into something tangible? The reason our ideas die before witnessing the real world is because either we don’t pursue them as passionately as we should or we don’t get a platform to discuss it.
+The NIT Conclave is an annual meeting of students from all National Institutes of Technology which provides a common platform for the discussion and implementation of innovative ideas. It proposes great prospects of discussion on Technology, Entrepreneurship, Research, Training and Placements. It targets the participation and contribution of the new species of optimistic and ambitious young engineers, the future harbingers of progress for our country to build base for such a symbiotic relationship amongst NITs that can sustain itself for the years to come and contribute to the greater cause of nation building
+An aspect of this event is the effective exchange of knowledge, ideas and resource base to bring all the NITs at a uniform level of development, upholding the very concept of inclusive growth - the primary strategy for genuine progress of a nation. It aims to present the unique initiatives taken by various NITs to in order to produce assets for the nation. The NIT Conclave believes that innovative strategies, creativity and cumulative strength are necessary for the upliftment of a country.
+NIT Silchar takes a great pleasure while informing that we are  hosting the next edition i.e, 7th NIT Conclave.
+Since 2011, the NIT Conclave is providing the aspiring entrepreneurs with a promoting platform to give them a head start. The correct patronage can help to produce challenging future industrialists and a  strong industrial base will eventually contribute in the growth of the Indian economy.
+The theme being " OUTCOME BASED RESEARCH, INNOVATION and ENTREPRENUERSHIP " is an attempt to encourage the innovative ideas to bloom and thrive. Introducing the concept of ‘Outcome based Research’, we take an opportunity to captivate the attention of young minds who have some thrilling research oriented ideas persisting within their brains. ‘Innovation’ embeds the deliberate application of imagination, information and initiatives in deriving the best out of available resources. It also includes the processes by which new ideas are generated and converted into something tangible. And the word ‘Entrepreneurship’ has been coined to invite the intellectuals who have the courage to take risks, one who strongly believes in utilising the opportunities at hand to the best of it.
+It is a three day event from --- of October to --- of October. The official website launching ceremony is to be held on 24th of March.
+NIT Silchar have been an active participant in all the fields whether it be researches, implementation of innovative plans or Entreprenuership. NITS has its Start-up Centre. welcoming to encourage the enthusuastic young Entreprenuers of the Institute.
+NITS has its Indovation Lab solely dediacated to catch the ideas before it dies within the individual
+    </string>
+
+    <string name="history_content">
+        A  journey that had begun for the first time in NIT Nagpur  marked the beginning of a beautiful initiative towards change .Since then time has only been an asset, as with experience, NIT Conclave has only become an impeccable event of great intellectual substance nationwide.
+With the first NIT Conclave being held at NIT Nagpur, the subsequent ones were held at NIT Nagpur, NIT Surathkal, NIT Jalandhar, NIT Rourkela.
+ Every year marks better participation thus signalling betterment. The themes have also seen a paradigm shift from being confined to personal development to now being nation oriented.
+The sixth Conclave is being held at our college, NIT Silchar, and we are proud to hail it in our grounds and soil.
+Thus, every year, the batton of NIT Conclave  is passed on to carry forward the legacy of this exemplary initiative  with full zeal and conviction.                                                                     .
+    </string>
+
+    <string-array name="nit_list">
+        <item>College Name:</item>
+        <item>NIT Silchar</item>
+        <item>NIT Agartala</item>
+        <item>NIT Manipur</item>
+        <item>NIT Patna</item>
+        <item>NIT Jalandhar</item>
+        <item>MNNIT Allahabad</item>
+        <item>MANIT Bhopal</item>
+        <item>NIT Calicut</item>
+        <item>NIT Durgapur</item>
+        <item>NIT Hamirpur</item>
+        <item>MNIT Jaipur</item>
+        <item>NIT Jamshedpur</item>
+        <item>NIT Kurukshetra</item>
+        <item>VNIT Nagpur</item>
+        <item>NIT Raipur</item>
+        <item>NIT Rourkela</item>
+        <item>NIT Srinagar</item>
+        <item>SVNIT Surat</item>
+        <item>NIT Surathkal</item>
+        <item>NIT Trichy</item>
+        <item>NIT Warangal</item>
+        <item>NIT Arunachal Pradesh</item>
+        <item>NIT Sikkim</item>
+        <item>NIT Goa</item>
+        <item>NIT Meghalaya</item>
+        <item>NIT Nagaland</item>
+        <item>NIT Manipur</item>
+        <item>NIT Mizoram</item>
+        <item>NIT Uttarakhand</item>
+        <item>NIT Delhi</item>
+        <item>NIT Pondicherry</item>
+
+    </string-array>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_lol">lol</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+</resources>

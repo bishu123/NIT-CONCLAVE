@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "828322894722",
+    "firebase_url": "https://new-nit-conclave.firebaseio.com",
+    "project_id": "new-nit-conclave",
+    "storage_bucket": "new-nit-conclave.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828322894722:android:821ca9fbde00c47e",
+        "android_client_info": {
+          "package_name": "com.bishu.jasbir_singh.nits_conclave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828322894722-66ueqnl258juikdcsgon0iiml3m4sigp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bishu.jasbir_singh.nits_conclave",
+            "certificate_hash": "7e58544214d1e3eb4f5878c9d696a30f10446176"
+          }
+        },
+        {
+          "client_id": "828322894722-k75ev1oh93qqj6vcaknhsaaij2o6apqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIAkiYnjEjhmKvrrpJGEpy4QJKjZxaujM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828322894722-k75ev1oh93qqj6vcaknhsaaij2o6apqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
