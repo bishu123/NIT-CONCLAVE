@@ -29,7 +29,7 @@ public class History extends android.support.v4.app.Fragment {
         //listView.setPadding(0, xsd[1]/3, 0, 0);
         team_heads_custom=new Team_heads_custom(getActivity().getApplicationContext(),R.layout.team);
         /*team_heads_custom.add(new Info("Patron",null,"patron"));
-        team_heads_custom.add(new Info("Institute Body",null,"institute"));
+        /team_heads_custom.add(new Info("Institute Body",null,"institute"));
         team_heads_custom.add(new Info("Founding Body",null,"foundation"));
         team_heads_custom.add(new Info("Alumni Conveners",null,"alumni"));
         team_heads_custom.add(new Info("Conveners","","covener"));
