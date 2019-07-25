@@ -25,7 +25,7 @@ public class History extends android.support.v4.app.Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         View root= inflater.inflate(R.layout.team,container,false);
         listView=(ListView)root.findViewById(R.id.team_head_list);
-        //int  xsd[]=getDimensions();
+        ///int  xsd[]=getDimensions();
         //listView.setPadding(0, xsd[1]/3, 0, 0);
         team_heads_custom=new Team_heads_custom(getActivity().getApplicationContext(),R.layout.team);
         /*team_heads_custom.add(new Info("Patron",null,"patron"));
